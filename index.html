@@ -1,0 +1,265 @@
+
+<!DOCTYPE HTML>
+
+
+<!-- 
+    For Assignment 1, you can choose these options for your landing page:
+
+(A) Landing Page for Personal Portfolio
+
+A page highlighting your work in this Bootcamp (and beyond) complete with your contact details, work experience, screenshots of your work, GitHub repo, and any other detail that is relevant.
+
+(B) Landing Page for Business Idea
+
+If you have a business idea, you can develop the landing page for your business complete with contact details, products or services you offer, customer testimonials, pictures of the product or service, and any other detail that is relevant.
+
+::: Due Date
+Sunday 05/09/2021 @11:00pm
+
+::: Reference
+For themes, you can look at the examples on Bootstrap or the template that we have completed together in class.
+
+https://getbootstrap.com/docs/5.0/examples/
+
+https://github.com/danyentezari/astrolabs-cs-coding_junaug2021
+
+::: Requirements
+These are the required items for your HTML & CSS landing page:
+
+– Headline
+
+– Logo or Profile Picture
+
+– Hero Image
+
+– Benefit Statements (e.g, why use your product or service, why hire you, etc.)
+
+– Lead Form (use an external service like https://formspree.io to send emails)
+
+– Call to Action Button (e.g, Buy Now, Get Started, Contact Me, etc.)
+
+– Cards for Trust Indicators (i.e, testimonials, courses taken, social proof, authority, scarcity)
+
+-->
+
+
+<html>
+<head>
+  <title>nauggets. Save. Store. Spend</title>
+
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        
+        <style>
+            h1{
+                
+                color: black;
+            }
+        </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">nauggets</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Services Offered</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="#">Invest in Gold</a></li>
+              <li><a class="dropdown-item" href="#">Take Delivery</a></li>
+              <li><a class="dropdown-item" href="#">Vaults</a></li>
+              <li><a class="dropdown-item" href="#">Cards</a></li>
+              <li><a class="dropdown-item" href="#">Payments</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form>
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./naug 1.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3" style="margin-left: 20px;">Be Different. Save Different </h1>
+          <p class="lead" style="margin-left: 20px;">Gold was always awesome, we just made it easy</p>
+          <p style="margin-left: 20px;">Save spend and send your gold.</p>
+          <p style="margin-left: 20px;">Join our community</p>  
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="margin-left: 40px;">Join us</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Login</button>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br><br><br><br>
+
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+  
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3" style="margin-right: 20px;">MAKING GOLD ACCESSIBLE FOR "THE REST OF US" </h1>
+          <p class="lead" style="margin-right: 20px;">With our easy to use app you can buy gold at market price then save,</p>
+          <p class="lead" style="margin-right: 20px;">send and spend your gold while earning 2.4% per annum</p>
+            
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="margin-left: 20px;">Click to know more</button>
+            
+          </div>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img style="margin-left: 20px;" src="./visa cards.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500">
+        </div>
+
+      </div>
+
+    
+
+      <br><br><br><br><br><br><br>
+      <h1 style="text-align: center;">SERVICES PROVIDED</h1>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon bg-primary bg-gradient">
+        
+          </div>
+          <img src="./delivery.jpg" width ="200" height="200" style="margin-left: 80px;">
+          <br><br>
+          <h2 style="margin-left: 20px;">Have your gold delivered</h2>
+          <p style="margin-left: 20px;">You can have your physical gold delivered right to your door!</p>
+          <a href="#" class="btn btn-primary" style="margin-left: 20px;">
+            Click to know more
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon bg-primary bg-gradient">
+            
+          </div>
+          <img src="./vault.jpg" width ="200" height="200"  style="margin-left: 100px;">
+          <br><br>
+          <h2>Distributed vaults</h2>
+          
+          <p>Choose where you would like to keep your gold from our list of locations.</p>
+          <a href="#" class="btn btn-primary">
+            Click to know more
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon bg-primary bg-gradient">
+            
+          </div>
+          <img src="./cards.jpg" width ="200" height="200" style="margin-right: 40px;">
+          <br><br>
+          <h2>Spend your gold</h2>
+          <p>Get issued your gold card so you can transact your gold.</p>
+          <br>
+          <a href="#" class="btn btn-primary">
+            Click to know more
+          </a>
+        </div>
+      </div>
+
+  <br><br><br><br><br><br><br>
+
+      
+
+      <main>
+
+        <h1 style="text-align: center;" >COMMUNITY GOSSIP</h1>
+        <br><br>
+      
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+      
+        <div class="container marketing">
+      
+          <!-- Three columns of text below the carousel -->
+          <div class="row">
+            <div class="col-lg-3">
+              
+              <img  src="./testimonial 1.jpg"  width="200" height="200" >
+              <br> <br>
+              <h5 style="text-align:center">Roseller Greene</h5>
+              <p>Nauggets gave me a fair price on gold without any hidden fee.</p>
+              
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-3">
+              <img  src="./testimonial 2.jpg" width="200" height="200">
+              <br> <br>
+      
+              <h5>Richard Thomas</h5>
+              <p>I love that I can buy my coffee with gold.</p>
+              
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-3">
+              <img  src="./testimonial 3.jpg" width="200" height="200">
+              <br> <br>
+      
+              <h5>Phoebe Archibald</h5>
+              <p>I'm able to put away savings for my family, not worry about inflation and watch my rewards grow.</p>
+
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-3">
+              <img  src="./testimonial 4.jpg" width="200" height="200">
+              <br> <br>
+      
+              <h5>Paul Evergreen</h5>
+              <p>Nauggets gave me rewards by doing my part for the environment.</p>
+              
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+      
+      
+          
+      </main>
+<br><br><br>
+      <form
+      action="https://formspree.io/f/xzbyyvye"
+      method="POST"
+    >
+    <h5 style="margin-left: 20px;"> Kindly enter your details for our weekly Newsletter!</h5>
+    <br>
+      <label style="margin-left: 20px;">
+        Full Name
+        <input type="message" name="_replyto">
+      </label>
+      <br><br>
+      <label style="margin-left: 20px;">
+        
+        Email
+        <textarea name="email"></textarea>
+
+        
+      </label>
+      <!-- your other form fields go here -->
+      <br><br>
+      <button style="margin-left: 20px;" type="submit">Send</button>
+    </form>
+    <br><br><br>
+</body>
+
+</html>
